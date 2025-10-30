@@ -2,9 +2,7 @@ import json
 import time
 from datetime import datetime
 from pathlib import Path
-
-#Simple commandline program to record session 
-
+import tkinter as tk
 
 #Functions to load an save data in json file
 
