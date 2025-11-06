@@ -1,7 +1,6 @@
 class Session:
-    def __init__(self,projectName):
-        
-        self.projectName = projectName
+    def __init__(self, projectId):
+        self.projectId = projectId
 
     def show(self):
-        print(f"Projectnaam: {self.projectName}")
+        print()
