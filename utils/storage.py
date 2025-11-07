@@ -4,7 +4,7 @@ from pathlib import Path
 
 #Functions to load an save data in json file
 
-DATA_FILE = Path("data/sessions.json")
+DATA_FILE = Path("data/data.json")
 
 def load_data():
     if not DATA_FILE.exists():
@@ -16,3 +16,4 @@ def save_data(data):
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(DATA_FILE, "w") as f:
         json.dump(data, f, indent=4)
+
