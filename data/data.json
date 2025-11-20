@@ -1,18 +1,10 @@
 {
-    "Test": {
-        "ID": "909fb9bc-9c15-4b5b-acc9-09b5113039ab",
-        "Name": "Test"
+    "ac091f42-1029-4f6e-8b03-d369ad324bba": {
+        "ID": "ac091f42-1029-4f6e-8b03-d369ad324bba",
+        "Name": "Ik dacht het niet"
     },
-    "B": {
-        "ID": "f1aa5854-5b33-4325-a65b-d95885bca773",
-        "Name": "B"
-    },
-    "A": {
-        "ID": "aed04125-1037-4d6a-9f97-81b7a52ed6cf",
-        "Name": "A"
-    },
-    "D": {
-        "ID": "2ec3365f-141e-40f5-9152-018c52caef7a",
-        "Name": "D"
+    "b487e9fc-a281-42bf-b667-8a8031b2de0d": {
+        "ID": "b487e9fc-a281-42bf-b667-8a8031b2de0d",
+        "Name": "Maggie"
     }
 }

@@ -12,9 +12,28 @@ def addNewProject():
     data[name] = newProject.parseToJson()
     save_data(data)
 
+def saveProjects(projects):
+    data ={}
+    for project in projects:
+        # key mag zijn wat jij handig vindt: projectId, projectName, ...
+        key = str(project.projectId)
+        data[key] = project.parseToJson()
+
+    save_data(data)
+
 def loadProjects():
     data = load_data()
     projects = [Project.parseFromJson(p) for p in data.values()]
+    return projects
 
-    for y in projects:
-        print (y.projectId + "  -  " + y.projectName)
+def parseProjectsToTableData(projectList):
+    tableData ={}
+
+    for i, project in enumerate(projectList):
+        rowKey = str(i)
+        tableData[rowKey] = {
+            "ID": project.projectId,
+            "Project naam": project.projectName
+        }
+
+    return tableData
